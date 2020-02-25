@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        android:text="@string/question_declaration1"
+        android:padding="8dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/true_button"
+         android:text="@string/true_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:id="@+id/false_button"
+            android:text="@string/false_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <ImageButton
+            android:id="@+id/previous_button"
+            android:contentDescription="@string/previous_text"
+            android:src="@drawable/outline_navigate_before_black_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageButton>
+
+    <ImageButton
+        android:id="@+id/next_button"
+        android:contentDescription="@string/next_text"
+        android:src="@drawable/twotone_navigate_next_black_18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageButton>
+
+    </LinearLayout>
+</LinearLayout>

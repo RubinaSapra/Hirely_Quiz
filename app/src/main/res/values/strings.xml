@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hirely Quiz</string>
+    <string name="question_declaration1">Java was found by James Gosling.</string>
+    <string name="question_declaration2">CPP is slower than Java.</string>
+    <string name="question_declaration3">Python provides vast libraries.</string>
+    <string name="question_declaration4">Javascript is used in web designing.</string>
+    <string name="question_declaration5">VR is not a part of web development.</string>
+    <string name="question_declaration6">Python provides libraries for ML.</string>
+    <string name="question_declaration7">Binary Search is a function in cpp.</string>
+    <string name="question_declaration8">A set in c++ is unordered.</string>
+    <string name="question_declaration9">MergeSort has complexity of n log n.</string>
+    <string name="question_declaration10">Flutter is a pert of google\'s venture.</string>
+    <string name="true_text">True</string>
+    <string name="false_text">False</string>
+    <string name="correct_answer">That\'s correct!!!</string>
+    <string name="wrong_answer">That\'s wrong!</string>
+    <string name="next_text">Go to next..</string>
+    <string name="previous_text">Go to previous..</string>
+</resources>
